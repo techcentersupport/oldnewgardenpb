@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Old New Garden Primitive Baptist Church | Excelsior Springs, MO</title>
+  <style>
+    /* Reset & General Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Georgia', serif;
+      line-height: 1.6;
+      color: #2c2c2c;
+      background-color: #fdfbf7;
+    }
+
+    /* Header & Navigation */
+    header {
+      background-color: #3b2c24;
+      color: #ffffff;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: normal;
+      margin-bottom: 0.25rem;
+    }
+    header p {
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #d1c7bd;
+    }
+    nav {
+      background-color: #291e18;
+      border-top: 1px solid #4a3a30;
+      border-bottom: 1px solid #4a3a30;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+    nav li a {
+      display: block;
+      color: #e8e2db;
+      text-decoration: none;
+      padding: 0.85rem 1.5rem;
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    nav li a:hover,
+    nav li a.active {
+      background-color: #4a3a30;
+      color: #ffffff;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #5c4738;
+      color: #ffffff;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      font-weight: normal;
+    }
+    .hero p {
+      font-size: 1.15rem;
+      max-width: 700px;
+      margin: 0 auto 1.5rem auto;
+      color: #f0eae1;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #8c6d53;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 4px;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.9rem;
+      transition: background-color 0.2s ease;
+    }
+    .btn:hover {
+      background-color: #6e543f;
+    }
+
+    /* Main Content */
+    .container {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e5dfd5;
+      border-radius: 6px;
+      padding: 1.75rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    }
+    .card h3 {
+      font-size: 1.35rem;
+      color: #3b2c24;
+      margin-bottom: 0.75rem;
+      border-bottom: 2px solid #8c6d53;
+      padding-bottom: 0.3rem;
+    }
+    .card p {
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #291e18;
+      color: #a89f91;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+      font-size: 0.9rem;
+    }
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.6rem; }
+      .hero h2 { font-size: 1.75rem; }
+      nav li a { padding: 0.75rem 1rem; font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Old New Garden Primitive Baptist Church</h1>
+    <p>Excelsior Springs, Missouri</p>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="service-times.html">Service Times</a></li>
+      <li><a href="articles-of-faith.html">Articles of Faith</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h2>Welcome to Our Church Family</h2>
+    <p>We are a congregation dedicated to worshiping God in simplicity, truth, and grace, holding fast to the doctrines of sovereign grace and Christian fellowship.</p>
+    <a href="service-times.html" class="btn">Join Us For Worship</a>
+  </section>
+
+  <!-- Key Highlights Grid -->
+  <main class="container">
+    <div class="grid">
+      
+      <div class="card">
+        <h3>Worship With Us</h3>
+        <p>We meet regularly for congregational singing, prayer, and scripture exposition. Everyone is welcome to join our worship services.</p>
+        <a href="service-times.html" class="btn">View Schedule</a>
+      </div>
+
+      <div class="card">
+        <h3>Our Beliefs</h3>
+        <p>Learn more about our belief in the doctrines of grace, salvation through Jesus Christ, and the authority of the Holy Scriptures.</p>
+        <a href="articles-of-faith.html" class="btn">Read Articles of Faith</a>
+      </div>
+
+      <div class="card">
+        <h3>Get in Touch</h3>
+        <p>Have questions or planning a visit? Reach out to us for directions, service details, or additional information.</p>
+        <a href="contact.html" class="btn">Contact Us</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Old New Garden Primitive Baptist Church &bull; Excelsior Springs, MO</p>
+    <p>Sovereign Grace &bull; Simple Worship &bull; Christian Fellowship</p>
+  </footer>
+
+</body>
+</html>
